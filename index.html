@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101316">
+  <meta name="description" content="Auto-Sence Service Centre — automotive service and repair support in Bronkhorstspruit, Gauteng.">
+  <title>Auto-Sence Service Centre | Bronkhorstspruit</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#101316;--ink-2:#171b1f;--panel:#1d2227;--paper:#f4f3ef;--muted:#a7afb5;--orange:#f15b2a;--orange-2:#ff7548;--line:rgba(255,255,255,.11);--max:1200px;--head:'Barlow Condensed',Impact,sans-serif;--body:'DM Sans',Arial,sans-serif}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:84px}body{margin:0;background:var(--ink);color:#f8f8f5;font-family:var(--body);line-height:1.55}a{color:inherit;text-decoration:none}button,input,textarea{font:inherit}button,a{-webkit-tap-highlight-color:transparent}img{display:block;max-width:100%}.wrap{width:min(var(--max),calc(100% - 48px));margin:auto}.eyebrow{display:flex;align-items:center;gap:10px;color:var(--orange-2);font-size:.75rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase}.eyebrow:before{content:"";width:25px;height:2px;background:var(--orange)}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:var(--head);line-height:.98;text-transform:uppercase}h1{font-size:clamp(3.25rem,7vw,6.3rem);letter-spacing:-.015em;margin:18px 0 22px;max-width:800px}h2{font-size:clamp(2.6rem,5vw,4.6rem);margin-bottom:18px;letter-spacing:.01em}h3{font-size:1.65rem;letter-spacing:.02em}.muted{color:var(--muted)}.section{padding:112px 0}.section-head{max-width:700px;margin-bottom:45px}.section-head p{color:var(--muted);font-size:1.05rem;max-width:580px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 22px;border:1px solid transparent;border-radius:3px;background:var(--orange);color:#fff;font-weight:700;transition:transform .18s ease,background .18s ease,border-color .18s ease}.btn:hover{background:var(--orange-2);transform:translateY(-2px)}.btn:focus-visible,a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #ffc06a;outline-offset:3px}.btn.outline{background:transparent;border-color:rgba(255,255,255,.45)}.btn.outline:hover{border-color:#fff;background:rgba(255,255,255,.08)}.btn.dark{background:var(--ink);color:white}.icon{width:19px;height:19px;flex:none;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+    .topbar{height:76px;position:sticky;top:0;z-index:20;background:rgba(16,19,22,.92);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.08)}.nav{height:100%;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:12px;line-height:1}.brand-mark{width:39px;height:39px;display:grid;place-items:center;background:var(--orange);clip-path:polygon(0 0,100% 0,83% 100%,0 100%)}.brand-mark svg{width:25px;height:25px}.brand-name strong{display:block;font-family:var(--head);font-size:1.5rem;letter-spacing:.06em}.brand-name small{font-size:.58rem;letter-spacing:.22em;color:#b3b9bd;font-weight:700}.nav-links{display:flex;align-items:center;gap:30px;color:#d5d7d7;font-size:.88rem;font-weight:600}.nav-links a:not(.btn):hover{color:var(--orange-2)}.nav-links .btn{min-height:43px;padding:0 17px;font-size:.84rem}.menu-toggle{display:none;border:1px solid var(--line);background:transparent;color:white;width:44px;height:44px;border-radius:3px;place-items:center}
+    .hero{min-height:690px;display:flex;align-items:center;position:relative;overflow:hidden;background:#121517}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(11,14,16,.97) 0%,rgba(11,14,16,.88) 39%,rgba(11,14,16,.3) 100%),linear-gradient(0deg,rgba(11,14,16,.56),transparent 48%),url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=2200&q=85') center 56%/cover}.hero:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(115deg,transparent 68%,rgba(241,91,42,.13) 68.1%,transparent 68.4%)}.hero-content{position:relative;z-index:1;padding:85px 0 100px}.hero h1 span{color:var(--orange-2)}.hero-copy{font-size:1.08rem;max-width:530px;color:#c2c6c8;margin-bottom:30px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px}.hero-meta{display:flex;align-items:center;gap:12px;margin-top:45px;color:#d8d9d8;font-size:.83rem;font-weight:600}.pin{width:30px;height:30px;display:grid;place-items:center;background:rgba(241,91,42,.16);color:var(--orange-2);border-radius:50%}.hero-line{width:38px;height:1px;background:var(--orange)}
+    .trust{background:var(--orange);padding:0}.trust-grid{display:grid;grid-template-columns:repeat(4,1fr)}.trust-item{min-height:112px;display:flex;align-items:center;gap:15px;padding:22px 20px;border-right:1px solid rgba(255,255,255,.24)}.trust-item:first-child{padding-left:0}.trust-item:last-child{border:0}.trust-icon{width:43px;height:43px;border:1px solid rgba(255,255,255,.5);display:grid;place-items:center;flex:none}.trust-item strong{display:block;font-family:var(--head);font-size:1.25rem;text-transform:uppercase;line-height:1.05}.trust-item small{display:block;font-size:.75rem;opacity:.85;margin-top:5px}
+    .services{background:var(--paper);color:var(--ink)}.services .section-head p{color:#62696e}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service-card{background:#fff;padding:27px 27px 25px;min-height:225px;border:1px solid #e5e5e1;position:relative;transition:transform .2s,border-color .2s,box-shadow .2s}.service-card:hover{transform:translateY(-5px);border-color:var(--orange);box-shadow:0 14px 35px rgba(16,19,22,.09)}.service-card .card-icon{width:48px;height:48px;background:#fff0ea;color:var(--orange);display:grid;place-items:center;margin-bottom:20px}.service-card h3{margin-bottom:9px}.service-card p{color:#656c70;font-size:.88rem;margin:0}.service-card:after{content:"";position:absolute;bottom:0;left:0;height:3px;width:0;background:var(--orange);transition:width .2s}.service-card:hover:after{width:100%}.edit-note{display:inline-flex;align-items:center;gap:8px;background:#fff0ea;color:#934021;padding:8px 12px;font-size:.76rem;font-weight:600;margin-top:20px}
+    .why{background:var(--ink-2);position:relative;overflow:hidden}.why:after{content:"AS";font:800 24rem/.8 var(--head);color:rgba(255,255,255,.018);position:absolute;right:-25px;bottom:-55px;pointer-events:none}.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center;position:relative;z-index:1}.why-copy p{color:var(--muted);max-width:500px}.why-list{display:grid;grid-template-columns:1fr 1fr;gap:14px}.why-card{padding:23px;background:#20262b;border:1px solid rgba(255,255,255,.08);min-height:150px}.why-card .card-icon{color:var(--orange-2);margin-bottom:15px}.why-card h3{font-size:1.35rem;margin-bottom:8px}.why-card p{font-size:.81rem;color:#abb1b5;margin:0}
+    .about{background:#f4f3ef;color:var(--ink)}.about-grid{display:grid;grid-template-columns:1fr .9fr;gap:72px;align-items:center}.about-copy p{color:#636a6e;max-width:520px}.about-visual{position:relative;padding:0 0 23px 23px}.about-visual:before{content:"";position:absolute;left:0;bottom:0;width:65%;height:62%;background:var(--orange)}.about-visual img{position:relative;width:100%;height:410px;object-fit:cover;filter:saturate(.82)}.about-tag{position:absolute;right:-12px;bottom:46px;background:var(--ink);color:white;padding:15px 18px;font-family:var(--head);font-size:1.25rem;letter-spacing:.04em;text-transform:uppercase}.about-tag span{color:var(--orange-2)}
+    .gallery{background:#111518}.gallery-grid{display:grid;grid-template-columns:1.35fr 1fr 1fr;grid-template-rows:220px 220px;gap:12px}.gallery-item{padding:0;border:0;background:#252a2e;overflow:hidden;cursor:zoom-in;position:relative}.gallery-item:first-child{grid-row:span 2}.gallery-item img{height:100%;width:100%;object-fit:cover;transition:transform .45s,filter .3s;filter:brightness(.82) saturate(.82)}.gallery-item:hover img{transform:scale(1.045);filter:brightness(1) saturate(1)}.gallery-item:after{content:"View image +";position:absolute;bottom:14px;left:16px;padding:7px 10px;background:rgba(10,12,13,.7);font-size:.75rem;font-weight:600;opacity:0;transition:opacity .2s}.gallery-item:hover:after,.gallery-item:focus-visible:after{opacity:1}.lightbox{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.94);display:none;align-items:center;justify-content:center;padding:50px}.lightbox.open{display:flex}.lightbox img{max-width:min(1100px,92vw);max-height:82vh;object-fit:contain}.lightbox-close{position:absolute;right:22px;top:18px;width:48px;height:48px;background:transparent;border:1px solid rgba(255,255,255,.45);color:white;cursor:pointer;font-size:1.6rem}
+    .contact{background:var(--paper);color:var(--ink)}.contact-grid{display:grid;grid-template-columns:.88fr 1.12fr;gap:65px;align-items:start}.contact-info>p{color:#636a6e;max-width:420px}.contact-details{display:grid;gap:13px;margin:29px 0}.detail{display:flex;gap:14px;align-items:flex-start}.detail-icon{width:42px;height:42px;display:grid;place-items:center;background:#fff0ea;color:var(--orange);flex:none}.detail strong{font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;display:block;margin:1px 0 3px}.detail span{font-weight:600}.contact-actions{display:flex;gap:10px;flex-wrap:wrap}.form-card{background:#fff;padding:32px;box-shadow:0 16px 45px rgba(16,19,22,.08);border:1px solid #e8e7e2}.form-card h3{font-size:1.8rem;margin-bottom:8px}.form-card>p{color:#687075;font-size:.86rem;margin-bottom:22px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.field{display:grid;gap:6px}.field.full{grid-column:1/-1}.field label{font-size:.76rem;font-weight:700;color:#41484c}.field input,.field textarea{width:100%;border:1px solid #d9ddde;background:#fafaf8;border-radius:2px;padding:12px 13px;color:#1a1d1f;min-height:48px}.field textarea{resize:vertical;min-height:100px}.form-card .btn{width:100%;margin-top:17px;border:0;cursor:pointer}.form-help{font-size:.72rem;color:#727a7f;margin:10px 0 0;text-align:center}
+    .final-cta{background:var(--orange);padding:63px 0}.cta-inner{display:flex;align-items:center;justify-content:space-between;gap:28px}.cta-inner h2{font-size:clamp(2.5rem,4.2vw,4rem);margin:0 0 8px}.cta-inner p{margin:0;opacity:.88}.cta-actions{display:flex;gap:10px;flex:none}.cta-actions .btn{background:var(--ink)}.cta-actions .btn.outline{background:transparent;border-color:rgba(255,255,255,.75)}
+    footer{background:#0b0e10;padding:50px 0 22px}.footer-main{display:flex;justify-content:space-between;align-items:flex-start;gap:35px;padding-bottom:35px;border-bottom:1px solid rgba(255,255,255,.1)}.footer-desc{color:#a7afb5;font-size:.83rem;margin:15px 0 0}.footer-nav{display:flex;gap:24px;flex-wrap:wrap;color:#c7cbcd;font-size:.84rem}.footer-nav a:hover{color:var(--orange-2)}.footer-bottom{display:flex;justify-content:space-between;padding-top:19px;color:#828b90;font-size:.74rem}.preview-label{color:var(--orange-2);letter-spacing:.1em;text-transform:uppercase;font-weight:700}
+    .reveal{opacity:0;transform:translateY(16px);transition:opacity .55s ease,transform .55s ease}.reveal.visible{opacity:1;transform:none}
+    @media(max-width:900px){.nav-links{gap:18px}.nav-links a:not(.btn){font-size:.8rem}.trust-grid{grid-template-columns:repeat(2,1fr)}.trust-item:nth-child(2){border-right:0}.trust-item:nth-child(-n+2){border-bottom:1px solid rgba(255,255,255,.24)}.trust-item:first-child{padding-left:20px}.service-grid{grid-template-columns:repeat(2,1fr)}.why-grid,.about-grid{gap:38px}.gallery-grid{grid-template-rows:190px 190px}.contact-grid{gap:35px}}
+    @media(max-width:700px){.wrap{width:min(100% - 36px,var(--max))}.section{padding:78px 0}.topbar{height:68px}.menu-toggle{display:grid}.nav-links{display:none;position:absolute;top:68px;left:0;right:0;padding:12px 18px 20px;background:#111518;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:0}.nav-links.open{display:flex}.nav-links a:not(.btn){padding:14px 4px;border-bottom:1px solid rgba(255,255,255,.08);font-size:.98rem}.nav-links .btn{margin-top:13px;min-height:50px}.hero{min-height:650px}.hero:before{background:linear-gradient(90deg,rgba(11,14,16,.93),rgba(11,14,16,.66)),linear-gradient(0deg,rgba(11,14,16,.55),transparent 50%),url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1000&q=80') 58% center/cover}.hero-content{padding:74px 0 80px}.hero h1{font-size:clamp(3rem,13vw,5rem)}.hero-copy{font-size:1rem}.hero-actions{display:grid;grid-template-columns:1fr}.hero-actions .btn{width:100%}.hero-meta{margin-top:32px}.trust-item{padding:17px 10px;gap:10px;min-height:93px}.trust-item:first-child{padding-left:10px}.trust-icon{width:36px;height:36px}.trust-item strong{font-size:1.08rem}.trust-item small{font-size:.68rem}.service-grid{grid-template-columns:1fr;gap:12px}.service-card{min-height:0;padding:22px}.why-grid,.about-grid,.contact-grid{grid-template-columns:1fr;gap:30px}.why-list{gap:10px}.why-card{padding:18px;min-height:145px}.about-visual img{height:300px}.about-tag{right:-5px;bottom:38px}.gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:230px 145px 145px}.gallery-item:first-child{grid-column:span 2;grid-row:auto}.lightbox{padding:20px}.form-card{padding:23px 19px}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.cta-inner{align-items:flex-start;flex-direction:column}.cta-actions{width:100%;display:grid;grid-template-columns:1fr 1fr}.cta-actions .btn{padding:0 12px}.footer-main{flex-direction:column}.footer-nav{gap:13px 20px}.footer-bottom{gap:10px;flex-direction:column}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Auto-Sence Service Centre home">
+        <span class="brand-mark"><svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M3 15h18l-1.6-5a2 2 0 0 0-1.9-1.4h-10A2 2 0 0 0 5.6 10L4 15Z"/><path d="M5 15v3m14-3v3M7 18h10M7 11h10"/><circle cx="7" cy="15.5" r="1"/><circle cx="17" cy="15.5" r="1"/></svg></span>
+        <span class="brand-name"><strong>AUTO-SENCE</strong><small>SERVICE CENTRE</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links"><svg class="icon" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+        <a class="btn" href="#contact">Request a Quote <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap hero-content">
+        <span class="eyebrow">Auto-Sence Service Centre · Gauteng</span>
+        <h1>Reliable Vehicle<br><span>Service &amp; Repairs</span><br>in Bronkhorstspruit</h1>
+        <p class="hero-copy">Professional automotive care with a focus on keeping your vehicle running smoothly.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#contact">Request a Quote <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+          <a class="btn outline" href="tel:+27761404402"><svg class="icon" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a15 15 0 0 0 5 5L15 13l5 2v4c0 1-1 2-2 2C10 20 4 14 3 6c0-1 1-2 2-2Z"/></svg>Call 076 140 4402</a>
+          <a class="btn outline" href="https://wa.me/27761404402" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24"><path d="M20 11.5a8 8 0 0 1-11.8 7L4 20l1.5-4.1A8 8 0 1 1 20 11.5Z"/><path d="M9 9c.4 2 2 3.6 4 4l1-1 2 1c-.3 1.4-1.4 2-2.5 1.7-3-.8-5.3-3.1-6.1-6.1C7.1 7.5 7.6 6.3 9 6l1 2-1 1Z"/></svg>WhatsApp</a>
+        </div>
+        <div class="hero-meta"><span class="pin"><svg class="icon" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg></span><span>Serving Bronkhorstspruit</span><span class="hero-line"></span><span>Gauteng, South Africa</span></div>
+      </div>
+    </section>
+
+    <section class="trust" aria-label="Auto-Sence highlights">
+      <div class="wrap trust-grid">
+        <div class="trust-item"><span class="trust-icon"><svg class="icon" viewBox="0 0 24 24"><path d="m12 3 2.5 5 5.5.8-4 3.9 1 5.5-5-2.6-5 2.6 1-5.5-4-3.9 5.5-.8L12 3Z"/></svg></span><div><strong>Professional Service</strong><small>Automotive support</small></div></div>
+        <div class="trust-item"><span class="trust-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><strong>Convenient Location</strong><small>Bronkhorstspruit, Gauteng</small></div></div>
+        <div class="trust-item"><span class="trust-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 0 1-12.5 7.5L4 20l1.3-4.5A8.5 8.5 0 1 1 21 11.5Z"/><path d="M8 11h8M8 14h5"/></svg></span><div><strong>Straightforward</strong><small>Get in touch directly</small></div></div>
+        <div class="trust-item"><span class="trust-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M3 13h18M5 13l2-6h10l2 6M5 13v4m14-4v4M7 17h10"/><circle cx="7" cy="14" r="1"/><circle cx="17" cy="14" r="1"/></svg></span><div><strong>Local Automotive Care</strong><small>Here in your community</small></div></div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="wrap">
+        <div class="section-head reveal"><span class="eyebrow">How we can help</span><h2>Our Services</h2><p>Automotive support for keeping your vehicle maintained, road-ready and running smoothly.</p></div>
+        <div class="service-grid">
+          <article class="service-card reveal"><span class="card-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M4 13h16l-2-5H6l-2 5Zm1 0v4m14-4v4M7 17h10"/><circle cx="7" cy="14" r="1"/><circle cx="17" cy="14" r="1"/></svg></span><h3>Vehicle Servicing</h3><p>Routine vehicle care to help keep your car running smoothly.</p></article>
+          <article class="service-card reveal"><span class="card-icon"><svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5M11 7v4l3 2"/></svg></span><h3>Diagnostics</h3><p>Discuss a warning light or vehicle concern with the team.</p></article>
+          <article class="service-card reveal"><span class="card-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M14 6 6 14l4 4 8-8M13 7l4 4M4 20l2-2"/><path d="m18 3 3 3-4 4-3-3 4-4Z"/></svg></span><h3>General Repairs</h3><p>Get in touch to discuss repair needs for your vehicle.</p></article>
+          <article class="service-card reveal"><span class="card-icon"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 3v5m9 4h-5M12 21v-5M3 12h5"/></svg></span><h3>Brake &amp; Safety Checks</h3><p>Ask about a check when you have a safety concern.</p></article>
+          <article class="service-card reveal"><span class="card-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M5 8h14v10H5zM8 8V5h8v3M8 12h8m-8 3h5"/><path d="M3 11H1m22 0h-2"/></svg></span><h3>Engine &amp; Mechanical</h3><p>Describe the issue and ask the team about next steps.</p></article>
+          <article class="service-card reveal"><span class="card-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M12 3v3m0 12v3M3 12h3m12 0h3M5.6 5.6l2.1 2.1m8.6 8.6 2.1 2.1m0-12.8-2.1 2.1m-8.6 8.6-2.1 2.1"/><circle cx="12" cy="12" r="5"/></svg></span><h3>Maintenance</h3><p>Contact Auto-Sence about your vehicle maintenance needs.</p></article>
+        </div>
+        <div class="edit-note"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5m0-8h.01"/></svg>Service categories shown as preview content — confirm with Auto-Sence before launch.</div>
+      </div>
+    </section>
+
+    <section class="section why">
+      <div class="wrap why-grid">
+        <div class="why-copy reveal"><span class="eyebrow">A local point of contact</span><h2>Automotive Care,<br>Close to Home.</h2><p>When your vehicle needs attention, connecting with a local service centre should feel straightforward. Auto-Sence is based in Bronkhorstspruit and ready to hear what you need help with.</p><a class="btn" href="#contact">Talk to Auto-Sence <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></div>
+        <div class="why-list">
+          <article class="why-card reveal"><span class="card-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg></span><h3>Local &amp; Convenient</h3><p>Find Auto-Sence on Mulder Road in Bronkhorstspruit.</p></article>
+          <article class="why-card reveal"><span class="card-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 0 1-12.5 7.5L4 20l1.3-4.5A8.5 8.5 0 1 1 21 11.5Z"/><path d="M8 11h8M8 14h5"/></svg></span><h3>Clear Communication</h3><p>Call or send a message to explain what your vehicle needs.</p></article>
+          <article class="why-card reveal"><span class="card-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M12 3 4 6v5c0 5 3.5 8 8 10 4.5-2 8-5 8-10V6l-8-3Z"/><path d="m8.5 12 2.2 2.2 4.8-5"/></svg></span><h3>Professional Approach</h3><p>Automotive service and repair support for your vehicle.</p></article>
+          <article class="why-card reveal"><span class="card-icon"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M5 21v-2a7 7 0 0 1 14 0v2M9 8h.01M15 8h.01"/></svg></span><h3>Customer-Focused</h3><p>Start with a conversation about what matters to you.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="wrap about-grid">
+        <div class="about-copy reveal"><span class="eyebrow">About the service centre</span><h2>About Auto-Sence<br>Service Centre</h2><p>Auto-Sence Service Centre provides automotive service and repair support in Bronkhorstspruit, Gauteng. Whether you have a vehicle concern or want to ask about maintenance, get in touch with the team to discuss what you need.</p><p>Based at 6 Mulder Rd, Auto-Sence is a local point of contact for automotive care in the area.</p><a class="btn dark" href="#contact">Contact the Team <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></div>
+        <div class="about-visual reveal"><img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=1000&q=85" alt="Vehicle in a clean automotive workshop" loading="lazy"><div class="about-tag">Your local <span>service centre</span></div></div>
+      </div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+      <div class="wrap">
+        <div class="section-head reveal"><span class="eyebrow">Inside the workshop</span><h2>Workshop &amp; Gallery</h2><p>A glimpse of the automotive environment. Gallery imagery can be replaced with Auto-Sence workshop and vehicle photos.</p></div>
+        <div class="gallery-grid">
+          <button class="gallery-item" aria-label="View automotive workshop image"><img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1100&q=85" alt="Mechanic working in an automotive repair workshop" loading="lazy"></button>
+          <button class="gallery-item" aria-label="View car maintenance image"><img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=800&q=80" alt="Car being inspected in a service bay" loading="lazy"></button>
+          <button class="gallery-item" aria-label="View vehicle image"><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80" alt="Dark sports car detail" loading="lazy"></button>
+          <button class="gallery-item" aria-label="View automotive tools image"><img src="https://images.unsplash.com/photo-1632823471565-1ecdf5c6e8d8?auto=format&fit=crop&w=800&q=80" alt="Automotive workshop tools and equipment" loading="lazy"></button>
+          <button class="gallery-item" aria-label="View vehicle service image"><img src="https://images.unsplash.com/photo-1613214150384-4b222e9e1f92?auto=format&fit=crop&w=800&q=80" alt="Vehicle ready for automotive service" loading="lazy"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="wrap contact-grid">
+        <div class="contact-info reveal"><span class="eyebrow">Let's talk about your vehicle</span><h2>Need Your Vehicle<br>Serviced or Repaired?</h2><p>Get in touch with Auto-Sence Service Centre in Bronkhorstspruit. Call or message to discuss your vehicle and request a quote.</p>
+          <div class="contact-details">
+            <div class="detail"><span class="detail-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a15 15 0 0 0 5 5L15 13l5 2v4c0 1-1 2-2 2C10 20 4 14 3 6c0-1 1-2 2-2Z"/></svg></span><div><strong>Phone</strong><a href="tel:+27761404402"><span>076 140 4402</span></a></div></div>
+            <div class="detail"><span class="detail-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><strong>Location</strong><span>6 Mulder Rd, Bronkhorstspruit</span></div></div>
+          </div>
+          <div class="contact-actions"><a class="btn dark" href="tel:+27761404402">Call Now</a><a class="btn" href="https://wa.me/27761404402" target="_blank" rel="noopener">WhatsApp</a><a class="btn outline" style="color:var(--ink);border-color:#aeb4b7" href="https://www.google.com/maps/search/?api=1&amp;query=Auto-Sence%20Service%20Centre%2C%206%20Mulder%20Rd%2C%20Bronkhorstspruit" target="_blank" rel="noopener">Get Directions</a></div>
+        </div>
+        <form class="form-card reveal" id="enquiry-form">
+          <h3>Send an Enquiry</h3><p>Share a few details and continue in WhatsApp to send your message.</p>
+          <div class="form-grid">
+            <div class="field"><label for="name">Name</label><input id="name" name="name" autocomplete="name" required placeholder="Your name"></div>
+            <div class="field"><label for="phone">Phone Number</label><input id="phone" name="phone" type="tel" autocomplete="tel" required placeholder="Your number"></div>
+            <div class="field full"><label for="vehicle">Vehicle</label><input id="vehicle" name="vehicle" required placeholder="e.g. make and model"></div>
+            <div class="field full"><label for="message">What do you need help with?</label><textarea id="message" name="message" required placeholder="Tell us briefly about your enquiry"></textarea></div>
+          </div>
+          <button class="btn" type="submit">Send Enquiry <svg class="icon" viewBox="0 0 24 24"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7Z"/></svg></button>
+          <p class="form-help">Your message will open in WhatsApp for you to review and send.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="final-cta"><div class="wrap cta-inner"><div><h2>Let's Get Your Vehicle Back on the Road</h2><p>Contact Auto-Sence Service Centre today.</p></div><div class="cta-actions"><a class="btn" href="https://wa.me/27761404402" target="_blank" rel="noopener">WhatsApp Us</a><a class="btn outline" href="tel:+27761404402">Call Now</a></div></div></section>
+  </main>
+
+  <footer><div class="wrap"><div class="footer-main"><div><a class="brand" href="#home"><span class="brand-mark"><svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M3 15h18l-1.6-5a2 2 0 0 0-1.9-1.4h-10A2 2 0 0 0 5.6 10L4 15Z"/><path d="M5 15v3m14-3v3M7 18h10"/></svg></span><span class="brand-name"><strong>AUTO-SENCE</strong><small>SERVICE CENTRE</small></span></a><p class="footer-desc">Bronkhorstspruit, Gauteng<br><a href="tel:+27761404402">076 140 4402</a></p></div><nav class="footer-nav" aria-label="Footer navigation"><a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></nav></div><div class="footer-bottom"><span>© <span id="year"></span> Auto-Sence Service Centre</span><span class="preview-label">Website Preview</span></div></div></footer>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Gallery image preview" id="lightbox"><button class="lightbox-close" aria-label="Close image preview">×</button><img src="" alt=""></div>
+  <script>
+    const menuButton=document.querySelector('.menu-toggle');
+    const navLinks=document.querySelector('.nav-links');
+    menuButton.addEventListener('click',()=>{const open=menuButton.getAttribute('aria-expanded')==='true';menuButton.setAttribute('aria-expanded',String(!open));menuButton.setAttribute('aria-label',open?'Open navigation menu':'Close navigation menu');navLinks.classList.toggle('open',!open)});
+    navLinks.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{navLinks.classList.remove('open');menuButton.setAttribute('aria-expanded','false');menuButton.setAttribute('aria-label','Open navigation menu')}));
+    document.querySelector('#enquiry-form').addEventListener('submit',event=>{event.preventDefault();if(!event.currentTarget.reportValidity())return;const data=new FormData(event.currentTarget);const message=`Hi Auto-Sence Service Centre, my name is ${data.get('name')}. My phone number is ${data.get('phone')}. I would like to enquire about my ${data.get('vehicle')}. I need help with: ${data.get('message')}.`;window.open(`https://wa.me/27761404402?text=${encodeURIComponent(message)}`,'_blank','noopener,noreferrer')});
+    const lightbox=document.querySelector('#lightbox'),lightboxImage=lightbox.querySelector('img'),closeLightbox=lightbox.querySelector('.lightbox-close');let lastTrigger;
+    function closeGallery(){lightbox.classList.remove('open');document.body.style.overflow='';if(lastTrigger)lastTrigger.focus()}
+    document.querySelectorAll('.gallery-item').forEach(button=>button.addEventListener('click',()=>{lastTrigger=button;const image=button.querySelector('img');lightboxImage.src=image.src;lightboxImage.alt=image.alt;lightbox.classList.add('open');document.body.style.overflow='hidden';closeLightbox.focus()}));
+    closeLightbox.addEventListener('click',closeGallery);lightbox.addEventListener('click',event=>{if(event.target===lightbox)closeGallery()});document.addEventListener('keydown',event=>{if(event.key==='Escape'&&lightbox.classList.contains('open'))closeGallery()});
+    const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.12});document.querySelectorAll('.reveal').forEach(item=>observer.observe(item));
+    document.querySelector('#year').textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>
